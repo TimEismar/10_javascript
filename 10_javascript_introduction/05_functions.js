@@ -6,13 +6,13 @@ function sum(x, y) {
 sum(10, 2);
 console.log("Ergebnis = " + sum(2, 3));
 
-function add(x, y, z){
-    let addErgebnis = x + y+ z;
-    return addErgebnis;
+function multi(x, y, z, v, t,){
+    let multiErgebnis = x * y * z / (v -t);
+    return multiErgebnis;
 }
 
-add(Math.random(), Math.random(), 3.14159265359);
-console.log("Ergebnis: " + add( Math.random(), Math.random(), 3.14159265359) )
+multi(Math.random(), Math.random(), 3.14159265359);
+console.log("Ergebnis: " + multi( Math.random(), Math.random(), 3.14159265359, 1962, 1996) )
 
 /*
 AUFGABE:
